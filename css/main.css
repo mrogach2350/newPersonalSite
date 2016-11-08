@@ -1,28 +1,109 @@
-body {
-  background-image: url(http://i.imgur.com/pa4JZb7.jpg);
-  background-size: contain;
+header, main, footer {
+  padding-left: 300px;
 }
+.hidden {
+  display: none;
+}
+
+@media only screen and (max-width : 992px) {
+  header, main, footer {
+    padding-left: 0;
+  }
+  .hidden{
+    display: inherit;
+  }
+}
+
+main {
+  margin: 5vh 5vw;
+}
+
 footer {
   position: fixed;
-  bottom: 5px;
-  right: 15px;
+  bottom: 0;
+  width: 100%;
+  z-index: 2000;
+}
+
+body {
+  background-image: url('http://i.imgur.com/OmcVRuq.png');
+  background-size:  auto;
+  font-family: 'Russo One', sans-serif;
+}
+.side-nav{
+  background-color: transparent;
+}
+h2, h3 {
   text-align: center;
-  margin-left: 45%;
-}
-img {
-  height: 30vh;
-}
-.icon {
-  max-height: 32px;
-}
-#row3 {
-  margin-bottom: 50px;
-}
-.footerbox {
-  background: rgba(15, 0, 204, 0.65);
-  border: 2px solid black;
-  border-radius: 15px;
 }
 .card {
-  border: 5px;
+  margin: 20px auto;
+
+}
+.card-title {
+
+}
+.userView {
+  background-image: url('../imgs/headshot.jpeg');
+  background-size: cover;
+  height: 40vh;
+  width: 100%;
+}
+li, .card, .card-reveal {
+  color: black;
+  background-image: url('http://i.imgur.com/rIRHtyY.png');
+}
+.card-reveal {
+  width: 70%;
+  text-align: center;
+}
+.name {
+  position: absolute;
+  left: 10px;
+  bottom: 5px;
+  width: 100%;
+  text-align: justify;
+}
+p {
+  font-family: 'Open Sans', sans-serif;
+  padding: 15px 0;
+
+}
+.list {
+    font-size: 1.4em;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: baseline;
+}
+.navs  {
+  display: flex;
+  justify-content: space-around;
+}
+.skill-header {
+  text-align: center;
+  width: 100%;
+  margin-bottom: 5px;
+}
+.skills {
+  margin: 5px auto;
+  border: 2px solid black;
+  width: 80%;
+}
+.aboutMe {
+  text-align: center;
+  width: 90%;
+  margin: auto;
+  font-weight: lighter;
+}
+.fa-2x {
+  min-width: 35px;
+}
+li {
+  color: rgba(0,0,0,0.54);
+}
+.navLink {
+  border: 3px solid white;
 }

@@ -4,156 +4,156 @@
     <meta charset="utf-8">
     <!-- jQuery CDN -->
       <script   src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
-    <!-- Bootstrap CDN -->
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <!--Materialize CDN-->
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
       <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
     <!-- Styles -->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Open+Sans|Russo+One" rel="stylesheet">
+      <!-- Font Awesome CDN -->
+      <script src="https://use.fontawesome.com/42e74b9989.js"></script>
       <link rel="stylesheet" href="css/main.css" media="screen" title="no title" charset="utf-8">
     <!-- Scripts -->
       <script type="text/javascript" src="js/app.js"></script>
     <title></title>
   </head>
   <body>
-    <nav class="navbar navbar-default">
-    <div class="container-fluid">
-      <!-- Brand and toggle get grouped for better mobile display -->
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="#">Michael Rogachevsky</a>
+    <ul id="slide-out" class="side-nav fixed">
+        <li><div class="userView">
+        </div></li>
+        <li><a class="subheader">Michael Rogachevsky</a></li>
+        <li><a href="https://github.com/mrogach2350"><i class="waves-effect fa fa-github fa-2x"></i> Collaborate</a></li>
+        <li><a href="https://www.linkedin.com/in/rogachevsky"><i class="waves-effect fa fa-linkedin-square fa-2x"></i> Connect</a></li>
+        <li><a href="mailto:m.rogach@gmail.com"><i class="waves-effect fa fa-envelope fa-2x"></i> Contact</a></li>
+        <li><div class="divider"></div></li>
+        <li><a class="subheader">Projects</a></li>
+        <li><a href="#rpgLoot"><i class="waves-effect fa fa-shield fa-2x"></i> rpgLoot</a></li>
+        <li><a href="#viewFinder"><i class="waves-effect fa fa-camera fa-2x"></i> ViewFinder</a></li>
+        <li><a href="#vagabond"><i class="waves-effect fa fa-telegram fa-2x"></i>Vagabond</a></li>
+    </ul>
+
+    <main>
+      <h2 class="white-text">Michael Rogachevsky</h2>
+      <h3 class="white-text">Bay Area | Developer</h3>
+
+      <div class="row navs">
+          <a class="navLink col hidden" href="https://github.com/mrogach2350"><h4><i class="fa fa-github fa-1x"></i> Collaborate</h4></a>
+          <a class="navLink col hidden" href="https://www.linkedin.com/in/rogachevsky"><h4><i class="fa fa-linkedin-square fa-1x"></i> Connect</h4></a>
+          <a class="navLink col hidden" href="mailto:m.rogach@gmail.com"><h4><i class="fa fa-envelope fa-1x"></i> Contact</h4></a>
       </div>
 
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav">
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Git Repos<span class="caret"></span></a>
-            <ul class="dropdown-menu">
-              <li><a class="link" href="https://github.com/mrogach2350/functions-training.git">Functions</a></li>
-              <li><a class="link" href="https://github.com/mrogach2350/jquery-events-training">jQuery Events</a></li>
-              <li><a class="link" href="https://github.com/mrogach2350/building-js-iterators-lab">My Iterators</a></li>
-              <li><a class="link" href="https://github.com/mrogach2350/geoquakes">GeoQuakes</a></li>
-              <li><a class="link" href="https://github.com/mrogach2350/express-routes-training">Express Routes Training</a></li>
-              <li><a href="https://gist.github.com/mrogach2350/eb47e9edcf6492504020c9c299d724bb">Angular App Gist</a></li>
-            </ul>
-          </li>
+      <hr>
+      <div class="aboutMe white-text">
+        <h5>About Me</h5>
+        <p class="aboutMe">
+          I am a tenacious, ambitious Front-End developer determined to produce
+          high-quality user experiences through collaborative and intuitive
+          design. I look forward to working with dynamic, agile team-members to
+          create stunning applications.
+        </p>
+      </div>
+
+      <hr>
+
+      <div class="row">
+        <h5 class="skill-header col s12 white-text">Technical Skills</h5>
+        <ul class="list col s6 l3">
+          <li class="skill-header">Languages</li>
+          <li class="skills">JavaScript</li>
+          <li class="skills">Ruby</li>
+          <li class="skills">HTML</li>
+          <li class="skills">CSS</li>
         </ul>
-        <ul class="nav navbar-nav navbar-right">
-          <li><a href="mailto:m.rogach@gmail.com">Contact Me</a></li>
+        <ul class="list col s6 l3">
+          <li class="skill-header">Front-End</li>
+          <li class="skills">Angular</li>
+          <li class="skills">Blaze</li>
+          <li class="skills">React</li>
+          <li class="skills">Bootstrap</li>
         </ul>
-      </div><!-- /.navbar-collapse -->
-    </div><!-- /.container-fluid -->
-  </nav>
-</nav>
-<div id="row1" class="row">
- <div class="col xs12 m6 l3">
-   <div class="card">
-     <div class="card-image">
-       <img src="imgs/screenShot.png">
-       <span class="card-title">Tic-Tac-Toe</span>
-     </div>
-     <div class="card-content">
-       <p>Battle a friend in this awesome Ninja's vs. Pirates tic-tac-toe!</p>
-     </div>
-     <div class="card-action">
-       <a href="http://oceanographer-kevin-51204.bitballoon.com/">Play it here!</a>
-       <a href="https://github.com/mrogach2350/tic-tac-toe">GitHub Repo</a>
-     </div>
-   </div>
- </div>
- <div class="col xs12 m6 l3">
-   <div class="card">
-     <div class="card-image">
-       <img src="imgs/screenShot2.png">
-       <span class="card-title black-text">Type Racer</span>
-     </div>
-     <div class="card-content">
-       <p>Race a friend across your keyboard to get to the center tile!
-        <br>On you mark.....get set.....TYPE!</p>
-     </div>
-     <div class="card-action">
-       <a href="https://baliff-cheetah-35084.bitballoon.com/">Play it here!</a>
-       <a href="https://github.com/mrogach2350/racing_game">GitHub Repo</a>
-     </div>
-   </div>
- </div>
- <div class="col xs12 m6 l3">
-   <div class="card">
-     <div class="card-image">
-       <img src="imgs/screenShot3.png">
-       <span class="card-title black-text">Personal API</span>
-     </div>
-     <div class="card-content">
-       <p>Personal API includes Profile data and a MongoDB using mongoose.</p>
-     </div>
-     <div class="card-action">
-       <a href="https://arcane-woodland-15893.herokuapp.com/">Direct Link</a>
-       <a href="https://github.com/mrogach2350/express-personal-api">GitHub Repo</a>
-     </div>
-   </div>
- </div>
- <div class="col xs12 m6 l3">
-   <div class="card">
-     <div class="card-image">
-       <img src="imgs/project1.png">
-       <span class="card-title black-text">WDI Event Board</span>
-     </div>
-     <div class="card-content">
-       <p>Project 1 - An event posting board designed for use by a team/class to post personal and public events.</p>
-     </div>
-     <div class="card-action">
-       <a href="https://enigmatic-shelf-29928.herokuapp.com/">Direct Link</a>
-       <a href="https://github.com/mrogach2350/project1">GitHub Repo</a>
-     </div>
-   </div>
- </div>
- <div class="col xs12 m6 l3">
-   <div class="card">
-     <div class="card-image">
-       <img src="imgs/hangman.png">
-       <span class="card-title black-text">ng-Hangman</span>
-     </div>
-     <div class="card-content">
-       <p>Angular Hangman. Front-end hangman game built with Angular.
-         Can you save stick-man from the noose?</p>
-     </div>
-     <div class="card-action">
-       <a href="http://operator-bear-15870.bitballoon.com/">Direct Link</a>
-       <a href="https://github.com/mrogach2350/ng-hangman">GitHub Repo</a>
-     </div>
-   </div>
- </div>
- <div class="col xs12 m6 l3">
-   <div class="card">
-     <div class="card-image">
-       <img src="imgs/isitrotten.png">
-       <span class="card-title black-text">Is It Rotten?</span>
-     </div>
-     <div class="card-content">
-       <p>Angular front-end allows the user to search for films and then displays the
-         films IMDB and Rotten Tomatoes information.  <br>
-         Great way to make sure movie night isn't spoiled by a rotten flick.</p>
-     </div>
-     <div class="card-action">
-       <a href="http://pump-attendant-rabbit-48751.bitballoon.com/">Direct Link</a>
-       <a href="https://github.com/mrogach2350/is-it-rotten">GitHub Repo</a>
-     </div>
-   </div>
- </div>
-</div>
-<footer class="footer">
-  <div class="footerbox">
-    <a href="https://github.com/mrogach2350"><img id="octocat" class="icon" src="imgs/GitHub-Mark-32px.png" alt="octocat" /></a>
-    <a href="https://twitter.com/RogachM"><img id="tweeter" class="icon" src="imgs/Twitter_Logo_White_On_Blue.png" alt="tweeter" /></a>
-    <a href="https://www.linkedin.com/in/rogachevsky"><img id="linkedIn" class="icon" src="imgs/In-2C-41px-R.png" alt="" /></a>
-  </div>
-</footer>
+        <ul class="list col s6 l3">
+          <li class="skill-header">Back-End</li>
+          <li class="skills">Rails</li>
+          <li class="skills">Node</li>
+          <li class="skills">Express</li>
+          <li class="skills">MongoDB</li>
+        </ul>
+        <ul class="list col s6 l3">
+          <li class="skill-header"> Engines </li>
+          <li class="skills">Meteor</li>
+          <li class="skills">Ember</li>
+        </ul>
+      </div>
+
+
+
+      <hr>
+      <h3 class="white-text">Projects</h3>
+      <div class="card">
+        <a name="rpgLoot"></a>
+        <div class="card-image waves-effect waves-block waves-light">
+          <img class="activator" src="imgs/rpgLootImg.png">
+        </div>
+        <div class="card-content">
+          <span class="card-title activator">rpgLoot<i class="material-icons right">more_vert</i></span>
+          <p><a href="http://rpgloot.meteorapp.com/">Direct Link</a>  ||  <a href="https://github.com/mrogach2350/rpgLoot">GitHub Repo</a></p>
+        </div>
+        <div class="card-reveal">
+          <span class="card-title">rpgLoot<i class="material-icons right">close</i></span>
+          <h5>Tech: Meteor, BlazeJS.</h5>
+          <h6> Solo project developed in 6 days.
+              Development time includes time learning Meteor.
+              This application functions as a treasure distribution tool with
+              emphasis on cross platform compatibility and instant,
+              seamless responses.</h6>
+        </div>
+      </div>
+
+      <div class="card">
+        <a name="viewFinder"></a>
+        <div class="card-image waves-effect waves-block waves-light">
+          <img class="activator" src="imgs/viewFinderImg.png">
+        </div>
+        <div class="card-content">
+          <span class="card-title activator">ViewFinder<i class="material-icons right">more_vert</i></span>
+          <p><a href="https://view-finder.herokuapp.com/">Direct Link</a>  ||  <a href="https://github.com/mrogach2350/ViewFinder">GitHub Repo</a></p>
+        </div>
+        <div class="card-reveal">
+          <span class="card-title">ViewFinder<i class="material-icons right">close</i></span>
+          <h5>Tech: Ruby on Rails, MaterializeCSS, Mapbox, Cloudinary.</h5>
+          <h6>
+             Developed with three other developers over the course of 7 days.
+             Our team was able to ideate, plan, and develop a full stack application for sharing
+             location based photography in San Francisco.
+             This application had special emphasis on mobile compatibility. </h6>
+        </div>
+      </div>
+
+      <div class="card">
+        <a name="vagabond"></a>
+        <div class="card-image waves-effect waves-block waves-light">
+          <img class="activator" src="imgs/vagabondImg.png">
+        </div>
+        <div class="card-content">
+          <span class="card-title activator">Vagabond<i class="material-icons right">more_vert</i></span>
+          <p><a href="https://vagabond-internauts.herokuapp.com/">Direct Link</a>  ||  <a href="https://github.com/mrogach2350/internauts-project-vagabond">GitHub Repo</a></p>
+        </div>
+        <div class="card-reveal">
+          <span class="card-title">Vagabond<i class="material-icons right">close</i></span>
+          <h5>Tech: Ruby on Rails, Flexbox, Mapbox.</h5>
+          <h6>
+             Developed with three other developers.
+             Our client requested a travel tip app aimed at children.
+             We created a colorful, easy to use app over the course of 5 days.</h6>
+        </div>
+      </div>
+    </main>
+
+
+  <!-- <footer class="page-footer black">
+    <div class="container">
+    <a class="white-text right" href="#!">More Links</a>
+    </div>
+  </footer> -->
   </body>
 </html>
