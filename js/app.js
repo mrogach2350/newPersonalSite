@@ -1,4 +1,3 @@
-
 $( document ).ready(function() {
     console.log( "ready!" );
     // Initialize collapse button
@@ -8,6 +7,4 @@ $( document ).ready(function() {
     $( '.fa-shield' ).on('hover', function(){
       console.log('hovering...');
     });
-
-
 });
