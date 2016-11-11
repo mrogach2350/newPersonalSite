@@ -40,23 +40,17 @@ h2, h3 {
   margin: 20px auto;
 
 }
-.card-title {
-
-}
 .userView {
   background-image: url('../imgs/headshot.jpeg');
   background-size: cover;
   height: 40vh;
   width: 100%;
 }
-li, .card, .card-reveal {
+li, .card{
   color: black;
   background-image: url('http://i.imgur.com/rIRHtyY.png');
 }
-.card-reveal {
-  width: 70%;
-  text-align: center;
-}
+
 .name {
   position: absolute;
   left: 10px;
@@ -69,7 +63,7 @@ p {
   padding: 15px 0;
 
 }
-.list {
+.list, .cardList {
     font-size: 1.4em;
     text-align: center;
     display: flex;
@@ -77,6 +71,9 @@ p {
     justify-content: space-around;
     flex-wrap: wrap;
     align-items: baseline;
+}
+.cardList {
+  margin: 0;
 }
 .navs  {
   display: flex;
@@ -86,11 +83,13 @@ p {
   text-align: center;
   width: 100%;
   margin-bottom: 5px;
+  color: rgba(0, 0, 0, 0.8);
 }
 .skills {
   margin: 5px auto;
   border: 2px solid black;
   width: 80%;
+  color: rgba(0, 0, 0, 0.8);
 }
 .aboutMe {
   text-align: center;
@@ -100,6 +99,13 @@ p {
 }
 .fa-2x {
   min-width: 35px;
+}
+.fa {
+  color: black;
+}
+.right {
+  line-height: 100%;
+  vertical-align: middle;
 }
 li {
   color: rgba(0,0,0,0.54);
