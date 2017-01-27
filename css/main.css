@@ -103,6 +103,9 @@ p {
 .fa {
   color: black;
 }
+.fa-1x {
+  color:white;
+}
 .right {
   line-height: 100%;
   vertical-align: middle;
