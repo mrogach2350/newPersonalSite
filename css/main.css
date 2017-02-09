@@ -38,7 +38,6 @@ h2, h3 {
 }
 .card {
   margin: 20px auto;
-
 }
 .userView {
   background-image: url('../imgs/headshot.jpeg');
@@ -100,9 +99,6 @@ p {
 .fa-2x {
   min-width: 35px;
 }
-/*.fa {
-  color: black;
-}*/
 .fa-1x {
   color:white;
 }
