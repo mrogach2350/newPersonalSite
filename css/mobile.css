@@ -1,4 +1,4 @@
-@media handheld {
+@media only screen and (max-device-width: 480px) {
   body {
     background-color: rgba(255, 0, 0, 0.5);
   }
