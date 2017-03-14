@@ -90,10 +90,11 @@ p {
   color: rgba(0, 0, 0, 0.8);
 }
 .aboutMe {
-  text-align: center;
+  text-align: justify;
   width: 90%;
   margin: auto;
   font-weight: lighter;
+  font-size: 20px;
 }
 .fa-2x {
   min-width: 35px;
