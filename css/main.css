@@ -8,7 +8,6 @@ header, main, footer {
 main {
   margin: 5vh 5vw;
 }
-
 footer {
   position: fixed;
   bottom: 0;
@@ -28,6 +27,8 @@ h2, h3 {
   text-align: center;
 }
 .card {
+  width: 95%;
+  display: block;
   margin: 20px auto;
 }
 .userView {
@@ -54,14 +55,11 @@ p {
 
 }
 .list, .cardList {
-    font-size: 1.4em;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    align-items: baseline;
+  font-size: 1.4em;
+  text-align: center;
+  display: inline-block;
 }
+
 .cardList {
   margin: 0;
 }
@@ -75,10 +73,20 @@ p {
   margin-bottom: 5px;
   color: rgba(0, 0, 0, 0.8);
 }
-.skills {
-  margin: 5px auto;
+.list {
+  display: flex;
+  flex-direction: column;
+  flex-flow: column;
+}
+.skills{
+  display: inline-block;
+  margin: 3px auto;
+  padding: 0 5px;
+}
+
+.skills, .skill {
   border: 2px solid black;
-  width: 80%;
+  width: auto;
   color: rgba(0, 0, 0, 0.8);
 }
 .aboutMe {
@@ -92,10 +100,6 @@ p {
 }
 .fa-1x {
   color:white;
-}
-.right {
-  line-height: 100%;
-  vertical-align: middle;
 }
 li {
   color: rgba(0,0,0,0.54);
