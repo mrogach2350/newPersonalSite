@@ -1,273 +1,285 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="utf-8">
     <!-- jQuery CDN -->
-      <script   src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
     <!--Materialize CDN-->
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
     <!-- Styles -->
-      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-      <link href="https://fonts.googleapis.com/css?family=Open+Sans|Russo+One" rel="stylesheet">
-      <!-- Font Awesome CDN -->
-      <script src="https://use.fontawesome.com/42e74b9989.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Russo+One" rel="stylesheet">
+    <!-- Font Awesome CDN -->
+    <script src="https://use.fontawesome.com/42e74b9989.js"></script>
     <!-- Personal Code -->
-      <link rel="stylesheet" href="css/main.css" media="screen" title="no title" charset="utf-8">
-      <link rel="stylesheet" href="css/mobile.css" media="screen" title="no title" charset="utf-8">
-      <link rel="stylesheet" href="css/largeScreen.css" media="screen" title="no title" charset="utf-8">
-      <script type="text/javascript" src="js/app.js"></script>
+    <link rel="stylesheet" href="css/main.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="css/mobile.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="css/largeScreen.css" media="screen" title="no title" charset="utf-8">
+    <script type="text/javascript" src="js/app.js"></script>
     <title>Rogachevsky</title>
-  </head>
-  <body>
+</head>
+
+<body>
 
     <ul id="slide-out" class="side-nav fixed">
-      <li><div class="userView">
-      </div></li>
-      <li><a class="subheader">Michael Rogachevsky</a></li>
-      <li><a href="https://github.com/mrogach2350"><i class="waves-effect fa fa-github fa-2x"></i> Collaborate</a></li>
-      <li><a href="https://www.linkedin.com/in/rogachevsky"><i class="waves-effect fa fa-linkedin-square fa-2x"></i> Connect</a></li>
-      <li><a href="mailto:m.rogach@gmail.com"><i class="waves-effect fa fa-envelope fa-2x"></i> Contact</a></li>
-      <li><a href="assets/CV_Rogachevsky.pdf"><i class="waves-effect fa fa-file-pdf-o fa-2x"></i> CV</a></li>
-      <li><div class="divider"></div></li>
-      <li><a class="subheader">Projects</a></li>
-      <li><a href="#rpgLoot"><i class="waves-effect fa fa-shield fa-2x"></i> rpgLoot</a></li>
-      <li><a href="#viewFinder"><i class="waves-effect fa fa-camera fa-2x"></i> ViewFinder</a></li>
-      <li><a href="#vagabond"><i class="waves-effect fa fa-telegram fa-2x"></i>Vagabond</a></li>
+        <li>
+            <div class="userView">
+            </div>
+        </li>
+        <li><a class="subheader">Michael Rogachevsky</a></li>
+        <li><a href="https://github.com/mrogach2350"><i class="waves-effect fa fa-github fa-2x"></i> Collaborate</a></li>
+        <li><a href="https://www.linkedin.com/in/rogachevsky"><i class="waves-effect fa fa-linkedin-square fa-2x"></i> Connect</a></li>
+        <li><a href="mailto:m.rogach@gmail.com"><i class="waves-effect fa fa-envelope fa-2x"></i> Contact</a></li>
+        <li><a href="assets/CV_Rogachevsky.pdf"><i class="waves-effect fa fa-file-pdf-o fa-2x"></i> CV</a></li>
+        <li>
+            <div class="divider"></div>
+        </li>
+        <li><a class="subheader">Projects</a></li>
+        <li><a href="#rpgLoot"><i class="waves-effect fa fa-shield fa-2x"></i> rpgLoot</a></li>
+        <li><a href="#viewFinder"><i class="waves-effect fa fa-camera fa-2x"></i> ViewFinder</a></li>
+        <li><a href="#vagabond"><i class="waves-effect fa fa-telegram fa-2x"></i>Vagabond</a></li>
     </ul>
 
     <main>
-      <div class="row">
-        <h2 class="white-text">Michael Rogachevsky</h2>
-        <div class="col s12 l6">
-          <h3 class="white-text"><i class="fa fa-terminal"></i> Developer</h3>
-        </div>
-        <div class="col s12 l6">
-          <h3 class="white-text">QA Engineer <i class="fa fa-bug"></i></h3>
-        </div>
-      </div>
-      <!-- <h3 class="white-text"><i class="fa fa-terminal"></i> Developer | QA Engineer <i class="fa fa-bug"></i></h3> -->
-
-      <div class="row navs">
-        <a class="navLink col hidden" href="https://github.com/mrogach2350"><h4><i class="fa fa-github fa-1x"></i> Collaborate</h4></a>
-        <a class="navLink col hidden" href="https://www.linkedin.com/in/rogachevsky"><h4><i class="fa fa-linkedin-square fa-1x"></i> Connect</h4></a>
-        <a class="navLink col hidden" href="mailto:m.rogach@gmail.com"><h4><i class="fa fa-envelope fa-1x"></i> Contact</h4></a>
-        <a class="navLink col hidden" href="assets/resume.pdf"><h4><i class="fa fa-file-pdf-o fa-1x"></i> CV</h4></a>
-      </div>
-
-      <hr>
-      <div class="row">
-        <div class="aboutMe white-text col s12 l5">
-          <h5 class="center">About Me</h5>
-          <p class="aboutMe">
-            I am a tenacious, ambitious Front-End developer determined to produce
-            high-quality user experiences through collaborative and intuitive
-            design. I look forward to working with dynamic, agile team-members to
-            create stunning applications.
-          </p>
-        </div>
-
-        <div class="col s12 l7">
-          <h5 class="skill-header white-text">Technical Skills</h5>
-          <div class="row">
-            <ul class="list col s12 m6">
-              <li class="skill-header">Languages</li>
-              <a href="#ES6"><li class="skill">ES6</li></a>
-              <a href="#ruby"><li class="skill">Ruby</li></a>
-            </ul>
-            <ul class="list col s12 m6">
-              <li class="skill-header">Front-End</li>
-              <a href="#react"><li class="skill">React</li></a>
-              <a href="#angular"><li class="skill">Angular</li></a>
-            </ul>
-            <ul class="list col s12 m6">
-              <li class="skill-header">Back-End</li>
-              <a href="#ruby"><li class="skill">Rails</li></a>
-              <a href="#react"><li class="skill">Node/NPM</li></a>
-            </ul>
-            <ul class="list col s12 m6">
-              <li class="skill-header">Other</li>
-              <a href="#meteor"><li class="skill">Meteor</li></a>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <hr>
-
-      <div id="ES6" class="row">
-        <div class="col s12 l6">
-          <h3 id="react" class="col s8 offset-s2 white-text">React Project</h3>
-          <div class="card col s12">
-            <div class="card-image waves-effect waves-block waves-light">
-              <a href="http://tiny-tube.herokuapp.com/"><img src="imgs/tinyTube.png"></a>
+        <div class="row">
+            <h2 class="white-text">Michael Rogachevsky</h2>
+            <div class="col s12 l6">
+                <h3 class="white-text"><i class="fa fa-terminal"></i> Developer</h3>
             </div>
-            <div class="card-content">
-              <div class="row">
-                <div class="col s12">
-                  <span class="card-title">Tiny Tube <a href="https://github.com/mrogach2350/tiny-tube"><i class="fa fa-github right"></i></a></span>
-                  <h6>
-                    Dev Team: Solo
-                    <br>
-                    Tiny Tube is a simple YouTube clone built in ReactJS and hosted on Heroku.
-                  </h6>
-                </div>
-                <div class="col s12">
-                  <ul class="cardList">
-                    <li class="skills">React</li>
-                    <li class="skills">YouTube API</li>
-                  </ul>
-                </div>
-              </div>
+            <div class="col s12 l6">
+                <h3 class="white-text">QA Engineer <i class="fa fa-bug"></i></h3>
             </div>
-          </div>
+        </div>
+        <!-- <h3 class="white-text"><i class="fa fa-terminal"></i> Developer | QA Engineer <i class="fa fa-bug"></i></h3> -->
+
+        <div class="row navs">
+            <a class="navLink col hidden" href="https://github.com/mrogach2350">
+                <h4><i class="fa fa-github fa-1x"></i> Collaborate</h4>
+            </a>
+            <a class="navLink col hidden" href="https://www.linkedin.com/in/rogachevsky">
+                <h4><i class="fa fa-linkedin-square fa-1x"></i> Connect</h4>
+            </a>
+            <a class="navLink col hidden" href="mailto:m.rogach@gmail.com">
+                <h4><i class="fa fa-envelope fa-1x"></i> Contact</h4>
+            </a>
+            <a class="navLink col hidden" href="assets/resume.pdf">
+                <h4><i class="fa fa-file-pdf-o fa-1x"></i> CV</h4>
+            </a>
         </div>
 
-        <div class="col s12 l6">
-          <h3 id="meteor" class="col s8 offset-s2 white-text">Meteor Project</h3>
-            <div class="card col s12">
-              <div class="card-image waves-effect waves-block waves-light">
-                <a href="http://rpgloot.meteorapp.com/"><img src="imgs/rpgLootImg.png"></a>
-              </div>
-              <div class="card-content">
+        <hr>
+        <div class="row">
+            <div class="aboutMe white-text col s12 l5">
+                <h5 class="center">About Me</h5>
+                <p class="aboutMe">
+                    I am a tenacious, ambitious Front-End developer determined to produce high-quality user experiences through collaborative and intuitive design. I look forward to working with dynamic, agile team-members to create stunning applications.
+                </p>
+            </div>
+
+            <div class="col s12 l7">
+                <h5 class="skill-header white-text">Technical Skills</h5>
                 <div class="row">
-                  <div class="col s12">
-                  <span class="card-title">rpgLoot <a href="https://github.com/mrogach2350/rpgLoot"><i class="fa fa-github right"></i></a></span>
-                  <h6>
-                    Dev Team: Solo
-                    <br>
-                    Development time includes time learning Meteor.
-                    This application functions as a treasure distribution tool with
-                    emphasis on cross platform compatibility and instant,
-                    seamless responses.</h6>
-                  </div>
-                  <div class="col s12">
-                    <ul class="cardList">
-                      <li class="skills">Meteor</li>
-                      <li class="skills">BlazeJS</li>
+                    <ul class="list col s12 m6">
+                        <li class="skill-header">Languages</li>
+                        <a href="#ES6">
+                            <li class="skill">ES6</li>
+                        </a>
+                        <a href="#ruby">
+                            <li class="skill">Ruby</li>
+                        </a>
                     </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-        </div>
-      </div>
-
-      <div class="row">
-        <h3 id="angular" class="col s8 offset-s2 white-text">Angular Projects</h3>
-        <div class="col s12 l6">
-          <div class="card">
-            <div class="card-image waves-effect waves-block waves-light">
-              <a href="http://pump-attendant-rabbit-48751.bitballoon.com/"><img src="imgs/isItRottenSS.png"></a>
-            </div>
-            <div class="card-content">
-              <div class="row">
-                <div class="col s12">
-                <span class="card-title">Is It Rotten <a href="https://github.com/mrogach2350/is-it-rotten"><i class="fa fa-github right"></i></a></span>
-                <h6>
-                  Dev Team: Solo
-                  <br>
-                  Is It Rotten? is a convenient tool to look up movies on IMDB and Rotten Tomatoes at the same time.
-                  This give you access to search films and then qucikly switch between ratings from IMDB and Rotten Tomatoes,
-                   giving you all the info you need with out the ads and extra distractions.
-                </h6>
-                </div>
-                <div class="col s12">
-                  <ul class="cardList">
-                    <li class="skills">AngularJS</li>
-                    <li class="skills"><a href="http://www.omdbapi.com/">OMDb API</a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col s12 l6 right">
-          <div class="card">
-            <div class="card-image waves-effect waves-block waves-light">
-              <a href="http://estates-officer-melanie-43605.bitballoon.com/"><img src="imgs/fijiWaterSS.png"></a>
-            </div>
-            <div class="card-content">
-              <div class="row">
-                <div class="col s12">
-                  <span class="card-title">Fiji Water ACC. <a href="https://github.com/mrogach2350/angularFiji"><i class="fa fa-github right"></i></a></span>
-                  <h6>
-                    Dev Team: Solo
-                    <br>
-                    Developed for Symphony Commerce Code Challenge utlizing AngularJS and
-                    Symphony's dummy API to create a mock sales site.</h6>
-                  </div>
-                  <div class="col s12">
-                    <ul class="cardList">
-                      <li class="skills">AngularJS</li>
-                      <li class="skills">External API</li>
+                    <ul class="list col s12 m6">
+                        <li class="skill-header">Front-End</li>
+                        <a href="#react">
+                            <li class="skill">React</li>
+                        </a>
+                        <a href="#angular">
+                            <li class="skill">Angular</li>
+                        </a>
                     </ul>
-                  </div>
+                    <ul class="list col s12 m6">
+                        <li class="skill-header">Back-End</li>
+                        <a href="#ruby">
+                            <li class="skill">Rails</li>
+                        </a>
+                        <a href="#react">
+                            <li class="skill">Node/NPM</li>
+                        </a>
+                    </ul>
+                    <ul class="list col s12 m6">
+                        <li class="skill-header">Other</li>
+                        <a href="#meteor">
+                            <li class="skill">Meteor</li>
+                        </a>
+                    </ul>
                 </div>
-              </div>
             </div>
         </div>
-      </div>
+        <hr>
 
-      <div class="row">
-        <h3 id="ruby" class="col s8 offset-s2 white-text">Rails Projects</h3>
-        <div class="col s12 l6">
-        <div class="card">
-          <div class="card-image waves-effect waves-block waves-light">
-            <a href="https://view-finder.herokuapp.com/"><img src="imgs/viewFinderImg.png"></a>
-          </div>
-          <div class="card-content">
-            <div class="row">
-              <div class="col s12">
-                <span class="card-title">ViewFinder <a href="https://github.com/mrogach2350/ViewFinder"><i class="fa fa-github right"></i></a></span>
-                <h6>
-                  Dev Team: 4
-                  <br>
-                  Our team was able to ideate, plan, and develop a full stack application for sharing
-                  location based photography in San Francisco.
-                  This application had special emphasis on mobile compatibility. </h6>
-              </div>
-              <div class="col s12">
-                <ul class="cardList">
-                  <li class="skills">Ruby on Rails</li>
-                  <li class="skills">MaterializeCSS</li>
-                  <li class="skills">Mapbox</li>
-                  <li class="skills">Cloudinary</li>
-                </ul>
-              </div>
+        <div id="ES6" class="row">
+            <div class="col s12 l6">
+                <h3 id="react" class="col s8 offset-s2 white-text">React Project</h3>
+                <div class="card col s12">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <a href="http://tiny-tube.herokuapp.com/"><img src="imgs/tinyTube.png"></a>
+                    </div>
+                    <div class="card-content">
+                        <div class="row">
+                            <div class="col s12">
+                                <span class="card-title">Tiny Tube <a href="https://github.com/mrogach2350/tiny-tube"><i class="fa fa-github right"></i></a></span>
+                                <h6>
+                                    Dev Team: Solo
+                                    <br> Tiny Tube is a simple YouTube clone built in ReactJS and hosted on Heroku.
+                                </h6>
+                            </div>
+                            <div class="col s12">
+                                <ul class="cardList">
+                                    <li class="skills">React</li>
+                                    <li class="skills">YouTube API</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
+
+            <div class="col s12 l6">
+                <h3 id="meteor" class="col s8 offset-s2 white-text">Meteor Project</h3>
+                <div class="card col s12">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <a href="http://rpgloot.meteorapp.com/"><img src="imgs/rpgLootImg.png"></a>
+                    </div>
+                    <div class="card-content">
+                        <div class="row">
+                            <div class="col s12">
+                                <span class="card-title">rpgLoot <a href="https://github.com/mrogach2350/rpgLoot"><i class="fa fa-github right"></i></a></span>
+                                <h6>
+                                    Dev Team: Solo
+                                    <br> A treasure distribution tool for table top games. Save your character sheet from constant erasing. </h6>
+                            </div>
+                            <div class="col s12">
+                                <ul class="cardList">
+                                    <li class="skills">Meteor</li>
+                                    <li class="skills">BlazeJS</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
 
-      <div class="col s12 l6 right">
-        <div class="card">
-          <div class="card-image waves-effect waves-block waves-light">
-            <a href="https://vagabond-internauts.herokuapp.com/"><img src="imgs/vagabondImg.png"></a>
-          </div>
-          <div class="card-content">
-            <div class="row">
-              <div class="col s12">
-                <span class="card-title">Vagabond <a href="https://github.com/mrogach2350/internauts-project-vagabond"><i class="fa fa-github right"></i></a></span>
-                <h6>
-                  Dev Team: 4
-                  <br>
-                  Our client requested a travel tip app aimed at children.
-                  We created a colorful, easy to use app over the course of 5 days.</h6>
-              </div>
-              <div class="col s12">
-                <ul class="cardList">
-                  <li class="skills">Ruby on Rails</li>
-                  <li class="skills">Flexbox</li>
-                  <li class="skills">Mapbox</li>
-                </ul>
-              </div>
+        <div class="row">
+            <h3 id="angular" class="col s8 offset-s2 white-text">Angular Projects</h3>
+            <div class="col s12 l6">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <a href="http://pump-attendant-rabbit-48751.bitballoon.com/"><img src="imgs/isItRottenSS.png"></a>
+                    </div>
+                    <div class="card-content">
+                        <div class="row">
+                            <div class="col s12">
+                                <span class="card-title">Is It Rotten <a href="https://github.com/mrogach2350/is-it-rotten"><i class="fa fa-github right"></i></a></span>
+                                <h6>
+                                    Dev Team: Solo
+                                    <br> Is It Rotten? is a convenient tool to look up movies on IMDB and Rotten Tomatoes at the same time. This give you access to search films and then qucikly switch between ratings from IMDB and Rotten Tomatoes, giving
+                                    you all the info you need with out the ads and extra distractions.
+                                </h6>
+                            </div>
+                            <div class="col s12">
+                                <ul class="cardList">
+                                    <li class="skills">AngularJS</li>
+                                    <li class="skills"><a href="http://www.omdbapi.com/">OMDb API</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-      </div>
-    </div>
-  </div>
+
+            <div class="col s12 l6 right">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <a href="http://estates-officer-melanie-43605.bitballoon.com/"><img src="imgs/fijiWaterSS.png"></a>
+                    </div>
+                    <div class="card-content">
+                        <div class="row">
+                            <div class="col s12">
+                                <span class="card-title">Fiji Water ACC. <a href="https://github.com/mrogach2350/angularFiji"><i class="fa fa-github right"></i></a></span>
+                                <h6>
+                                    Dev Team: Solo
+                                    <br> Developed for Symphony Commerce Code Challenge utlizing AngularJS and Symphony's dummy API to create a mock sales site.</h6>
+                            </div>
+                            <div class="col s12">
+                                <ul class="cardList">
+                                    <li class="skills">AngularJS</li>
+                                    <li class="skills">External API</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <h3 id="ruby" class="col s8 offset-s2 white-text">Rails Projects</h3>
+            <div class="col s12 l6">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <a href="https://view-finder.herokuapp.com/"><img src="imgs/viewFinderImg.png"></a>
+                    </div>
+                    <div class="card-content">
+                        <div class="row">
+                            <div class="col s12">
+                                <span class="card-title">ViewFinder <a href="https://github.com/mrogach2350/ViewFinder"><i class="fa fa-github right"></i></a></span>
+                                <h6>
+                                    Dev Team: 4
+                                    <br>This app highlights landmarks. Locals and tourist visit hotspots around the city to take and share photos. Simply snap a pic and upload it to share with the community.</h6>
+                            </div>
+                            <div class="col s12">
+                                <ul class="cardList">
+                                    <li class="skills">Ruby on Rails</li>
+                                    <li class="skills">MaterializeCSS</li>
+                                    <li class="skills">Mapbox</li>
+                                    <li class="skills">Cloudinary</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col s12 l6 right">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <a href="https://vagabond-internauts.herokuapp.com/"><img src="imgs/vagabondImg.png"></a>
+                    </div>
+                    <div class="card-content">
+                        <div class="row">
+                            <div class="col s12">
+                                <span class="card-title">Vagabond <a href="https://github.com/mrogach2350/internauts-project-vagabond"><i class="fa fa-github right"></i></a></span>
+                                <h6>
+                                    Dev Team: 4
+                                    <br> Our client requested a travel tip app aimed at children. We created a colorful, easy to use app over the course of 5 days.</h6>
+                            </div>
+                            <div class="col s12">
+                                <ul class="cardList">
+                                    <li class="skills">Ruby on Rails</li>
+                                    <li class="skills">Flexbox</li>
+                                    <li class="skills">Mapbox</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
     </main>
-  </body>
+</body>
+
 </html>
